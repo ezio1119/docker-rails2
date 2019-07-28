@@ -18,7 +18,6 @@ COPY Gemfile.lock $APP_ROOT
 RUN bundle install
 
 
-
 FROM ruby:2.6.3-alpine3.10
 
 RUN apk add --no-cache alpine-sdk \
